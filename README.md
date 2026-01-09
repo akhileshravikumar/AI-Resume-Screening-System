@@ -5,7 +5,7 @@ The system exposes a REST API that returns a **match score**, **matching skills*
 
 ---
 
-## 🔍 Problem Statement
+## Problem Statement
 
 Recruiters receive hundreds of resumes for a single job opening.  
 Manual screening is time-consuming, inconsistent, and prone to bias.
@@ -17,7 +17,7 @@ This project aims to:
 
 ---
 
-## 🎯 Solution Overview
+## Solution Overview
 
 Given:
 - Resume text
@@ -29,3 +29,11 @@ The system:
 3. Predicts a resume–job match score using ML
 4. Extracts matching and missing skills
 5. Serves predictions via a REST API
+
+## Input
+   1. Resume text (string)
+   2. Job description text (string)
+## Output
+   1. Match score (0–100)
+   2. Matching skills
+   3. Missing skills
